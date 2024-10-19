@@ -247,6 +247,14 @@ section {
 }
 
 ::-webkit-scrollbar {
-    width: 20px;
+    width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--main-color);
+}
+
+::-webkit-scrollbar-track {
+    background-color: var(--bg-color);
 }
 
