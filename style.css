@@ -331,7 +331,7 @@ section {
 
 .projects-box {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     place-items: center;
     gap: 3rem;
     row-gap: 5rem;
@@ -481,6 +481,12 @@ section {
         flex-direction: column-reverse;
         margin: 5rem 0;
         gap: 5rem;
+    }
+
+    .btn-group {
+        display: flex;
+        gap: 1.5rem;
+        justify-content: center;
     }
 
     .home--content {
